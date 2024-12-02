@@ -414,3 +414,11 @@ body{
     background: #47995a;
 }
 
+input::placeholder{
+    color: #000000b2;
+}
+
+input:focus:required:invalid { 
+    background-color:indianred;
+    border-color: red;
+}
